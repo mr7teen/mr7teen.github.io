@@ -1,0 +1,23 @@
+@mixin main ($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin marg-pa ($m, $p) {
+    margin: $m;
+    padding: $p;
+}
+
+@mixin bord ($b, $br) {
+    border: $b;
+    border-radius: $br;
+}
+
+@mixin font ($ff, $fw, $fs, $lh, $ls, $col) {
+    font-family: $ff;
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $ls;
+    color: $col;
+}
